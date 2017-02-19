@@ -449,6 +449,6 @@ If you run the example of the app. And you encounter the checksum error like bel
 
 There're some features or improvements I'd like to do in the near future. If you have any great ideas or suggestions, feel free to fork the repository and share it.
 
-- [ ] Replacing the Mocha testing framework with [Jest](https://facebook.github.io/jest/)
 - [ ] Type checking with [Flow](https://flowtype.org/)
+- [ ] Replacing the Mocha testing framework with [Jest](https://facebook.github.io/jest/)
 - [ ] Upgrading to [React Router v4](https://reacttraining.com/react-router/)
