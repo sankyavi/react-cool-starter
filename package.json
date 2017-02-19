@@ -34,18 +34,18 @@
   "homepage": "https://github.com/wellyshen/react-cool-starter",
   "scripts": {
     "start": "better-npm-run start",
-    "start:production": "npm run build && npm run start:prod",
+    "start:production": "yarn run build && yarn run start:prod",
     "start:prod": "better-npm-run start:prod",
-    "build": "npm run clean:build && better-npm-run build",
-    "lint": "npm run lint:js && npm run lint:style",
+    "build": "yarn run clean:build && better-npm-run build",
+    "lint": "yarn run lint:js && yarn run lint:style",
     "lint:js": "better-npm-run lint:js",
     "lint:style": "better-npm-run lint:style",
     "test": "better-npm-run test",
-    "test:watch": "npm test -- --no-single-run",
-    "clean:all": "npm run clean:build && npm run clean:coverage",
+    "test:watch": "yarn test -- --no-single-run",
+    "clean:all": "yarn run clean:build && yarn run clean:coverage",
     "clean:build": "better-npm-run clean:build",
     "clean:coverage": "better-npm-run clean:coverage",
-    "coveralls": "better-npm-run coveralls && npm run test:clean"
+    "coveralls": "better-npm-run coveralls && yarn run test:clean"
   },
   "betterScripts": {
     "start": {
