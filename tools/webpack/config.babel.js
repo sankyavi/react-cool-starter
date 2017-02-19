@@ -57,9 +57,10 @@ const getPlugins = () => {
       syntax: 'scss',
       failOnError: true,      // Disable style lint error terminating here
     }),
-    // Setup global variables for app
+    // Setup environment variables for client
+    new webpack.EnvironmentPlugin({ NODE_ENV: JSON.stringify(nodeEnv) }),
+    // Setup global variables for client
     new webpack.DefinePlugin({
-      'process.env': { NODE_ENV: JSON.stringify(nodeEnv) },
       __CLIENT__: JSON.stringify(true),
       __SERVER__: JSON.stringify(false),
       __DEV__: JSON.stringify(isDev),
