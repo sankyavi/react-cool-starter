@@ -74,7 +74,7 @@ yarn install
 **3. Start to run it:**
 
 ```bash
-yarn run start:production    # Building bundle and running production server
+yarn start:production    # Building bundle and running production server
 ```
 
 Now the app should be running at [http://localhost:8080/](http://localhost:8080/)
@@ -84,7 +84,7 @@ Now the app should be running at [http://localhost:8080/](http://localhost:8080/
 
 I use [better-npm-run](https://github.com/benoror/better-npm-run) to manage the scripts in a better way, which also provides the compatibility of corss-platform. All of the scripts are listed as following:
 
-`yarn run <script>`|Description
+`yarn <script>`|Description
 ------------------|-----------
 `start`|Run your app on the development server at `localhost:3000`. HMR will be enabled.
 `start:production`|Bundle your app to `./public/assets` and run it on the production server at `localhost:8080`.
@@ -99,7 +99,7 @@ I use [better-npm-run](https://github.com/benoror/better-npm-run) to manage the 
 `clean:build`|Remove the `./public/assets` folder to clean the bundled stuff.
 `clean:coverage`|Remove the `./coverage` folder to clean the code coverage report.
 
-Note: If you get the the following message, try to run `yarn run build` to fix it.
+Note: If you get the the following message, try to run `yarn build` to fix it.
 
 > webpack-isomorphic-tools (waiting for the first webpack build to finish)
 
